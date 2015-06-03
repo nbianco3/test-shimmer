@@ -4,6 +4,8 @@ time = (sensorDataArray(:,1)-sensorDataArray(1,1))/1000;
 signal = sensorDataArray(:,2);
 Fs = 1024;
 
+% test edit yo
+
 %% Noise Analysis
 figure(1)
 plot(signal)
